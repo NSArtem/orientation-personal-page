@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <title>Artem Abramov</title>
+    <style type="text/css">
+        body {
+            background-image: url("images/backgrond-night-forest.jpg");
+        }
+
+        a {color:#0000EE;}      /* unvisited link */
+        a:visited {color:#0000EE;}  /* visited link */
+        a:hover {color:#0000EE;}  /* mouse over link */
+        a:active {color:#0000EE;}  /* selected link */
+
+        #left {
+            margin: 64px 0px 0px 64px;  
+            float: left;  
+        }
+
+        .list_item li {
+            background: #AF9AFF;
+            /*padding: 2px 8px 2px 8px;*/
+            width: 100px;
+            height: 32px;
+            margin-top: 6px;
+        }
+
+        #center {
+            background-color: #F2EFFF;
+            margin-top: 64px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center; 
+            width: 384px;
+            padding: 64px 64px 32px 64px;
+        }
+
+        .cornered_corners {
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+        }
+
+        .xx_title {
+            font-size: xx-large;
+        }
+
+        .x_title {
+            font-size: x-large;
+        }
+
+        .emphasize {
+            color: #AF9AFF;
+        }
+
+        .clip_circle {
+            -webkit-clip-path: circle(120px at center);
+            clip-path: circle(120px at center);
+        }
+
+        ul {
+            color: #F2EFFF
+        }
+
+        #profile_picture {
+
+        }
+
+        /* http://paletton.com/#uid=74c1u0k96++00++2j++en+UiLZB */
+    </style>
+</head>
+
+<body>
+
+    <ul id="left" class="list_item">
+        <li><a href="https://github.com/nsartem">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/artem-abramov-08810964">Linkedin</a></li>
+    </ul>
+
+    <div id="center" class="cornered_corners">
+        <img id="profile_picture" class="clip_circle" alt="My face" src="images/profile.small.jpg">
+        <p class="xx_title">Hi, I'm <span class="emphasize">Arto Abramov</span>!</p>
+        <p class="x_title">Student@Metropolia UAS</p>
+        <p>Studying Information Techonlogy. Coding in Swift, Objective C and C#. Lifting weights and cycling.</p>
+        <p><a href="mailto:ar.abramov@gmail.com">ar.abramov@gmail.com</a>/+358 046 9341323</p>
+    </div>
+
+</body>
+
+</html>
